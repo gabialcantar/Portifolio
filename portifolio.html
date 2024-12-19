@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portifolio.css">
+    <script src="portifolio.js"></script>
+    <title>Portifólio</title>
+    <style>
+        /*rolagem suave no CSS */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre mim</a></li>
+                    <li><a href="#portfolio">Projetos na área de tecnologia</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Texto do portfólio ao lado do menu -->
+            <div class="portfolio-title">
+                Portfólio de Gabriela Alcântara
+            </div>
+            
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+        </div>
+    
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <i class="bi bi-x-lg"></i>
+            </div>
+        </div>
+        <div class="overlay-menu" id="overlay-menu"></div>
+    </header>    
+    <main>
+        <!-- Início -->
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1><span>.</span></h1>
+                        <p><h1>A tecnologia é a ponte para um futuro melhor, e eu estou aqui para construir caminhos que transformem ideias em realidade.</h1></p>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="img/tecno.jpg" alt="Tecnologia">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Especialidades -->
+        <section class="especiliadades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Website</h3>
+                        <p>Experiência na construção de websites utilizando HTML, CSS e JavaScript, além de habilidades no uso do WordPress para criar sites dinâmicos e personalizados.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-cart"></i>
+                        <h3>Power BI</h3>
+                        <p>Possuo conhecimentos na criação de dashboards interativos e dinâmicos no Power BI, transformando dados em insights visuais para apoiar decisões estratégicas.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-wordpress"></i>
+                        <h3>Back-End</h3>
+                        <p>Conhecimentos em linguagens de back-end, como Swift, aplicando técnicas robustas para o desenvolvimento de aplicações funcionais e eficientes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre -->
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="img/Captura de tela 2024-12-19 080552.png" alt="Foto de Gabriela">
+                    </div>
+                    <div class="txt-sobre">
+                        <h2>Olá, <span>sou Gabriela Alcântara.</span></h2>
+                        <p>Olá, sou Gabriela Alcântara, estudante de Análise e Desenvolvimento de Sistemas pela PUC Minas e Engenharia de Software pela Unicesumar. Minha paixão pela tecnologia começou na infância, quando eu adorava explorar computadores e me encantava com jogos.</p>
+                        <p>Um dos meus maiores aprendizados foi o desenvolvimento de uma aplicação web front-end, onde apliquei diversas práticas de programação e metodologias ágeis, como Scrum. Tenho um grande sonho: desenvolver meu próprio jogo. Estou sempre em busca de novos desafios e aprendizados, transformando minha paixão por tecnologia em projetos que fazem a diferença.</p>
+                        <div class="btn-social">
+                            <a href="https://github.com/gabialcantar" target="_blank">
+                                <button>
+                                    <img src="img/icone-git.png" alt="GitHub" style="width: 20px; height: 20px;">
+                                </button>
+                            </a>
+                            <a href="https://www.linkedin.com/in/gabriela-alc%C3%A2ntara-403a5728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+                                <button>
+                                    <img src="img/linkedin-logo.jpg" alt="Linkedin" style="width: 20px; height: 20px;">
+                                </button>
+                            </a>
+                            <a href="https://wa.me/5537998034791" target="_blank">
+                                <button>
+                                    <img src="img/whats.png" alt="whatsapp" style="width: 20px; height: 20px;">
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+   <!-- Portfólio -->
+  <section class="portfolio" id="portfolio">
+    <div class="interface">
+        <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+        <div class="flex">
+            <div class="img-port">
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7271826961935585282/" target="_blank">
+                    <img src="img/projeto-gestao.png" alt="Projeto Minha Gestão Fincanceira">
+                </a>
+                <div class="overlay">Projeto 1</div>
+            </div>
+
+            <div class="img-port">
+                <a href="https://www.linkedin.com/posts/gabriela-alc%C3%A2ntara-403a5728a_projeto-no-power-bi-an%C3%A1lise-de-vendas-activity-7229205837221625859-R3x0?utm_source=share&utm_medium=member_desktop" target="_blank">
+                    <img src="img/power-bi.jpg" alt="Projeto Power BI">
+                </a>
+                <div class="overlay">Projeto 2</div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+        <!-- Formulário -->
+        <section class="formulario" id="formulario">
+            <div class="interface">
+                <h2 class="titulo">Entre em <span>contato comigo.</span></h2>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                    <div class="btn-social">
+                        <a href="https://github.com/gabialcantar" target="_blank">
+                            <button>
+                                <img src="img/icone-git.png" alt="GitHub" style="width: 20px; height: 20px;">
+                            </button>
+                        </a>
+                        <a href="https://www.linkedin.com/in/gabriela-alc%C3%A2ntara-403a5728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+                            <button>
+                                <img src="img/linkedin-logo.jpg" alt="Linkedin" style="width: 20px; height: 20px;">
+                            </button>
+                        </a>
+                        <a href="https://wa.me/5537998034791" target="_blank">
+                            <button>
+                                <img src="img/whats.png" alt="whatsapp" style="width: 20px; height: 20px;">
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:gabrielaalcantara18@gmail.com">gabrielaalcantara18@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
