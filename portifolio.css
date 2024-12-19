@@ -118,6 +118,13 @@ section.topo-do-site .flex {
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
+.portfolio-title {
+    color: #4cd94f;
+    font-size: 24px; 
+    text-align: left;
+    margin-top: 5px; 
+}
+
 @keyframes flutuar {
     0% {
         top: 0;
@@ -204,7 +211,7 @@ section.sobre .flex {
 
 /* ESTILO DO PORTFÓLIO */
 section.portfolio {
-    padding: 80px 4%;  /* Ajustei o padding para aumentar o espaço em volta */
+    padding: 80px 4%;  
     box-shadow: 0 0 40px 10px #ffffff1d;
 }
 
